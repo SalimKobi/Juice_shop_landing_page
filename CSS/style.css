@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+  line-height: 1.4;
+}
+
+/* FONTS */
+.sf {
+  font-size: 20px;
+}
+
+/* UTILITY CLASSES */
+
+/* BUTTON */
+.btn {
+  /* border: 1px solid #fff;
+  text-decoration: none;
+  padding: 7px;
+  color: black; */
+
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background: #bb7b3d;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #764604;
+}
+
+/* Justify-content */
+.center {
+  justify-content: center;
+}
+
+/* padding up and down */
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 2.5rem 0;
+}
+
+/* margin top and bottom */
+.my-1 {
+  margin: 0.5rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 2.5rem 0;
+}
+
+/* margin-top */
+.mt-1 {
+  margin-top: 6rem;
+}
+
+/* margin-left */
+.ml {
+  margin-left: 2rem;
+}
+
+/* margin left and right  */
+.mlr {
+  margin: 0 2rem;
+}
+.mlr-2 {
+  margin: 0 3rem;
+}
+
+/* margin bottom */
+.mb {
+  margin-bottom: 1.7rem;
+}
+
+#showcase {
+  background: url("../img/back1.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+
+  /* OVERLAY */
+}
+.showcase-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.9) 1%,
+    rgba(225, 225, 225, 0) 100%
+  );
+}
+
+#showcase ul {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  list-style: none;
+}
+
+#showcase ul li {
+  margin: 2rem 2rem;
+}
+
+#showcase ul li a {
+  text-decoration: none;
+  color: #fff;
+  /* padding: 3rem; */
+}
+
+#showcase .text {
+  display: flex;
+  flex-direction: column;
+  /* text-align: left; */
+  /* align-items: center; */
+  justify-content: center;
+  width: 40%;
+  height: 70%;
+  /* font-size: 2rem; */
+  color: #fff;
+}
+
+#showcase .text h2 {
+  font-size: 3rem;
+}
+#showcase .text a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background: #bb7b3d;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  width: 35%;
+}
+#showcase .text a:hover {
+  background: #764604;
+}
+
+/* #showcase .icons {
+  width: 100%;
+  height: 100%;
+} */
+
+#showcase .icons ul li {
+  display: flex;
+  flex-direction: column;
+  margin-top: -350px;
+  margin-left: 1250px;
+  position: sticky;
+}
+
+/* WE ARE */
+#we-are {
+  padding: 2rem;
+  height: 100vh;
+  width: 100%;
+  background: #d9b18b;
+}
+
+#we-are .container .image {
+  background: url("../img/Discussion.jpg") no-repeat center;
+  height: 500px;
+  width: 100%;
+}
+#we-are .container {
+  display: flex;
+}
+#we-are .icons {
+  position: sticky;
+}
+#we-are .container1 {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+}
+#we-are .container2 {
+  background: #fff;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.item h2 {
+  display: inline-block;
+  align-items: center;
+}
+
+/* Customer Comment */
+#customer {
+}
+
+#customer .container .item .symbol {
+  color: #bb7b3d;
+}
