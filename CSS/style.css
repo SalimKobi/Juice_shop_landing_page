@@ -11,12 +11,39 @@ body {
 }
 
 /* FONTS */
+.fw {
+  font-weight: bold;
+}
 .sf {
   font-size: 20px;
+}
+.fsm {
+  font-size: smaller;
 }
 
 /* UTILITY CLASSES */
 
+/* LINKS */
+a {
+  /* color: #333; */
+  text-decoration: none;
+}
+
+/* .td {
+  text-decoration: none;
+  list-style: none;
+} */
+/* .no li {
+  text-decoration: none;
+} */
+.no {
+  list-style: none;
+}
+
+/* DISPLAY */
+.none {
+  display: none;
+}
 /* BUTTON */
 .btn {
   /* border: 1px solid #fff;
@@ -38,7 +65,18 @@ body {
 
 /* Justify-content */
 .center {
-  justify-content: center;
+  text-align: center;
+}
+
+/* padding all round */
+.p {
+  padding: 3rem;
+}
+.p-1 {
+  padding: 0.5rem;
+}
+.p-2 {
+  padding: 0 1rem;
 }
 
 /* padding up and down */
@@ -52,6 +90,19 @@ body {
   padding: 2.5rem 0;
 }
 
+/* padding of footer items  */
+.no li,
+.no h4 {
+  padding: 0.15rem 0;
+}
+
+/* margin all round */
+.m-1 {
+  margin: 3rem 18rem;
+}
+.m-2 {
+  margin: 2rem 1rem;
+}
 /* margin top and bottom */
 .my-1 {
   margin: 0.5rem 0;
@@ -73,9 +124,16 @@ body {
   margin-left: 2rem;
 }
 
+.ml-1 {
+  margin-left: 3rem;
+}
+
 /* margin left and right  */
 .mlr {
   margin: 0 2rem;
+}
+.mlr-1 {
+  margin: 0 0.5rem;
 }
 .mlr-2 {
   margin: 0 3rem;
@@ -84,6 +142,13 @@ body {
 /* margin bottom */
 .mb {
   margin-bottom: 1.7rem;
+}
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+/* margin top */
+.mt {
+  margin-top: 2rem;
 }
 
 #showcase {
@@ -171,7 +236,8 @@ body {
   padding: 2rem;
   height: 100vh;
   width: 100%;
-  background: #d9b18b;
+  /* background: #d9b18b; */
+  background: #e2c3a6;
 }
 
 #we-are .container .image {
@@ -205,10 +271,90 @@ body {
   align-items: center;
 }
 
-/* Customer Comment */
-#customer {
+/* CUSTOMER COMMENT */
+#customer .container {
 }
 
 #customer .container .item .symbol {
   color: #bb7b3d;
+}
+.customer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  background: url("../img/customer.jpg") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* FOUNDER */
+#founder {
+  display: flex;
+  height: 100vh;
+  background: #e2c3a6;
+}
+
+#founder .container3 {
+  width: 50%;
+}
+
+#founder .founder-img {
+  background: url("../img/customer.jpg") no-repeat center center/cover;
+  width: 50%;
+  height: 70%;
+}
+
+#founder .container3 .container {
+  /* background: #bb7b3d; */
+  font-size: smaller;
+  /* color: #fff; */
+}
+
+/* FOOTER */
+#footer {
+  padding: 3rem;
+  display: flex;
+  /* background: black; */
+}
+#footer a {
+  color: black;
+}
+#footer a:hover {
+  color: rgba(255, 81, 0, 0.5);
+}
+#footer .column {
+  flex: 1;
+}
+
+#footer .icon .no {
+  display: flex;
+  font-size: small;
+}
+#footer .icon .no .logo {
+  margin-left: 2rem;
+  justify-content: center;
+}
+
+/* The navbar icons and positioning */
+.symbol {
+  display: flex;
+  font-size: 10px;
+  flex-direction: column;
+}
+.symbol .logo {
+  margin-left: 1.5rem;
+}
+
+/* links to navbar */
+
+#showcase .showcase-content .showcase-nav li a:hover {
+  color: rgb(255, 208, 0);
+}
+
+/* icons on the first page */
+#showcase .showcase-content .icons ul li a:hover {
+  color: rgb(255, 208, 0);
 }
