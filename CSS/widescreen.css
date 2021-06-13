@@ -1,0 +1,23 @@
+Information-content #showcase .showcase-content .information .text {
+  margin-top: -9rem;
+}
+#showcase .showcase-content .information .icons {
+  margin-top: -3rem;
+}
+#showcase .showcase-content .information .text h2 {
+  font-size: 4rem;
+}
+
+/* We are section */
+#we-are {
+  background-color: #e2c3a6;
+  width: 100%;
+}
+#we-are .last-link a {
+  display: none;
+}
+
+/* FOUNDER IMAGE */
+#founder .founder-img {
+  background-color: red;
+}

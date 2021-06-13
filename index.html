@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" media="max-width:768px" href="CSS/mobile.css" />
     <link
-      rel="stylesheet"
-      media="min-width: 1100px"
-      href="CSS/widescreen.css"
-    />
+    rel="stylesheet"
+    media="screen and (max-width: 768px)"
+    href="CSS/mobile.css"
+  />
+  <link
+    rel="stylesheet"
+    media="screen and (min-width: 1100px)"
+    href="CSS/widescreen.css"
+  />
     <link rel="stylesheet" href="CSS/all.min.css" />
     <title>Juice_Shop</title>
   </head>
@@ -28,11 +32,32 @@
               <p>THE JUICE CAFE</p>
             </li>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li class="display"><a href="#">About Us</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
-        <div class="text">
+        <div class="information">
+            <div class="text">
+                <h2 class="my-1 ml">A juice a day keeps the doctor away</h2>
+                <p class="my-1 ml">
+                  Best juice with the power to intensify you. Just juice it
+                </p>
+                <a class="my-1 ml" href="#">Find us nearby</a>
+            </div>
+            <div class="icons">
+                <ul>
+                  <li>
+                    <a href="" class="mb-1"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="mb-1"><i class="fab fa-facebook"></i></i></a>
+                    <a href="" class="mb-1"><i class="fab fa-instagram"></i></i></a>
+                    <a href="" class="mb-1"><i class="fab fa-whatsapp"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+        <!-- <div class="text">
           <h2 class="my-1 ml">A juice a day keeps the doctor away</h2>
           <p class="my-1 ml">
             Best juice with the power to intensify you. Just juice it
@@ -49,11 +74,12 @@
             </li>
           </ul>
         </div>
+        </div> -->
       </div>
     </header>
 
     <!-- WE ARE -->
-    <section id="we-are">
+    <section id="we-are" >
         <div class="container">
             <div class="image mlr"></div>
             <div class="text mlr">
@@ -62,25 +88,30 @@
                 <a href="#" class="btn">More about us</a>
             </div>
         </div>
-        <div class="container1">
-            <div class="container2">
-                <div class="py-3 mlr-2 item">
-                    <h2 class="ml-1">12 +</h2>
-                    <p class="sf">Years of experience</p>
-                </div>
-                <div class="py-3 mlr-2">
-                    <h2 class="ml-1">135</h2>
-                    <p class="sf">Branches all over</p>
-                </div>
-                <div class="py-3 mlr-2">
-                    <h2 class="ml">43</h2>
-                    <p class="sf">awards won</p>
+        <div class="second-half">
+            <div class="container1">
+                <div class="container2">
+                    <div class="py-3 mlr-2 item">
+                        <h2 class="ml-1">12+</h2>
+                        <p class="sf">Years of experience</p>
+                    </div>
+                    <div class="py-3 mlr-2 item">
+                        <h2 class="ml-1 ">135</h2>
+                        <p class="sf">Branches all over</p>
+                    </div>
+                    <div class="py-3 mlr-2 item">
+                        <h2 class="ml">43</h2>
+                        <p class="sf">awards won</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="last-link">
+            <a href="#" class="btn">More about us</a>
+        </div>
     </section>
     <!-- CUSTOMER COMMENTS -->
-    <section id="customer">
+    <section id="customer" style="margin-top: -3rem;"> 
         <div class="container m-1">
             <div class="item">
                 <div class="symbol"><i class="fas fa-quote-left fa-2x"></i></div>
@@ -135,8 +166,8 @@
         </div>
     </section>
     <!-- ABOUT THE FOUNDER -->
-    <section id="founder" class="p">
-        <div class="container3 p mt">
+    <section id="founder" class="p" style="margin-top: -3rem">
+        <div class="container3 p mt" style="margin-top: 6rem;">
             <h2 class="mb-1">About the founder</h2>
             <div class="container p-1 mb-1">
                 <h3 class="mb-1">Ben Ten</h3>
@@ -146,7 +177,7 @@
             <p class="mb-1 fsm">iure nulla quidem nostrum, voluptates dolores dicta, quasi, maxime dolorum! Impedit dolore iste voluptatibus dicta, reiciendis sunt voluptas voluptates commodi explicabo, porro non quibusdam, molestias odio officia.</p>
             <a href="#" class="btn mt">More about him</a>
         </div>
-        <div class="founder-img"></div>
+        <!-- <div class="founder-img" style="margin-top: 6rem"></div> -->
     </section>
     <!-- FOOTER -->
     <section id="footer">

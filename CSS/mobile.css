@@ -1,0 +1,165 @@
+/* SHOWCASE FIRST PAGE */
+.showcase-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.9) 10%,
+    rgba(0, 0, 0, 0.01) 100%
+  );
+}
+
+#showcase .showcase-content .showcase-nav .symbol {
+  display: none;
+}
+
+#showcase .showcase-content nav ul {
+  font-size: 0.9rem;
+  /* padding: 0 2rem; */
+}
+#showcase ul li {
+  margin: 2rem 1rem;
+}
+#showcase .showcase-content .information .text {
+  margin-top: -5rem;
+  align-items: center;
+  justify-content: center;
+}
+#showcase .showcase-content .information .text a {
+  margin-left: 0rem;
+}
+#showcase .showcase-content .information .icons ul {
+  margin-top: -5rem;
+  /* align-items: center;
+  justify-content: center; */
+  align-items: center;
+}
+
+#showcase .showcase-content .information .text h2 {
+  font-size: 2rem;
+}
+
+/* COMMENT SECTION */
+.center {
+  /* display: none; */
+  text-align: none;
+}
+.py-3 {
+  padding: 0.5rem 0;
+}
+/* MARGIN */
+.m-1 {
+  margin: 3rem 2rem;
+}
+/* .ml-1 {
+  margin-left: 0.1px;
+} */
+.mlr-2 {
+  margin: 0 1rem;
+}
+.number-2 {
+  margin-left: 1px;
+}
+
+/* WE ARE */
+#we-are {
+  background-color: #e2c3a6;
+}
+#we-are a {
+  margin: 3rem 0;
+  margin-left: 10rem;
+  justify-content: center;
+}
+#we-are .container .text a {
+  display: none;
+  margin-bottom: 2rem;
+}
+#we-are .second-half .container1 .item {
+  font-size: 0.7rem;
+}
+#we-are .second-half .container1 .item p {
+  font-size: 0.7rem;
+}
+
+#we-are .second-half {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+}
+
+#we-are .container1 {
+  width: 100%;
+  /* width: 20%; */
+  /* justify-items: center; */
+}
+#we-are .container2 {
+  /* background-color: #e2c3a6; */
+  display: none;
+}
+
+#we-are .container .image {
+  display: none;
+}
+
+/* FOUNDER IMAGE */
+
+#founder .founder-img {
+  display: none;
+}
+#founder .container3 {
+  width: 100%;
+}
+
+/* FOOTER */
+#footer .icon {
+  display: none;
+}
+#footer .column {
+  font-size: 15px;
+}
+
+/* SMART PHONES SMART PHONES SMART PHONES SMART PHONES SMART PHONES SMART PHONEES SMART PHONES  */
+@media (max-width: 500px) {
+  #showcase .showcase-content .icons {
+    display: none;
+  }
+  #showcase .showcase-content .showcase-nav ul li:nth-last-child(2) {
+    display: none;
+  }
+  #showcase .showcase-content .information .text a {
+    margin-left: 0rem;
+    font-size: small;
+    width: 9rem;
+  }
+  #we-are .last-link {
+    margin-left: -3rem;
+  }
+  #founder .container3 h2 {
+    margin-top: -1rem;
+  }
+  #footer .column {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  #founder .container3 h2 {
+    font-size: 1.3rem;
+  }
+  #we-are .container .text h2 {
+    font-size: 1.2rem;
+  }
+  #we-are .last-link {
+    margin-left: -3.5rem;
+  }
+}
+
+/* @media (max-width: 360px) {
+  #founder .container3 h2 {
+    margin-top: -5rem;
+  }
+} */
