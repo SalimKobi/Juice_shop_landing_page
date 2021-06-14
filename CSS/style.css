@@ -288,7 +288,7 @@ width: 12rem;
 #we-are .container .image {
   background: url("../img/Discussion.jpg") no-repeat center;
   height: 500px;
-  width: 100%;
+  width: 50%;
 }
 
 #we-are .second-half{
@@ -298,6 +298,13 @@ width: 12rem;
 
 #we-are .container {
   display: flex;
+}
+#we-are .container .img {
+  flex: 1;
+}
+#we-are .container .text {
+  /* width: 50%; */
+  flex: 1;
 }
 #we-are .icons {
   position: sticky;
@@ -359,6 +366,7 @@ width: 12rem;
   background: url("../img/customer.jpg") no-repeat center center/cover;
   width: 50%;
   height: 70%;
+  margin-top: 4rem;
 }
 
 #founder .container3 .container {
